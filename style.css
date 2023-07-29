@@ -15,7 +15,7 @@
 }
 
 .mario {
-    width: 150px;
+    width: 10%;
     position: absolute;
     bottom: 0;
     
@@ -37,6 +37,12 @@
     position: absolute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
+}
+
+@media screen and (max-width: 600px) {
+    .mario {
+        width: 20%;
+    }
 }
 
 @keyframes pipe-animation {
